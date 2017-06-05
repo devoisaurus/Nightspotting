@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nightspotting", "Nightspotting\Nightspotting.csproj", "{55898614-A312-47F2-A6C8-DA0E692A96F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nightspotting.Tests", "Nightspotting.Tests\Nightspotting.Tests.csproj", "{C963FC52-5914-4CBA-9A52-705022C351C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55898614-A312-47F2-A6C8-DA0E692A96F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55898614-A312-47F2-A6C8-DA0E692A96F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55898614-A312-47F2-A6C8-DA0E692A96F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55898614-A312-47F2-A6C8-DA0E692A96F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C963FC52-5914-4CBA-9A52-705022C351C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C963FC52-5914-4CBA-9A52-705022C351C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C963FC52-5914-4CBA-9A52-705022C351C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C963FC52-5914-4CBA-9A52-705022C351C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
