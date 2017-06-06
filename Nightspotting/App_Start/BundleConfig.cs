@@ -30,7 +30,8 @@ namespace Nightspotting
             ));
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
-                "~/app/app.js"));
+                "~/app/app.js",
+                "~/app/loginController.js"));
         }
     }
 }
