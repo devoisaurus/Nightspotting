@@ -1,15 +1,13 @@
 ﻿(function () {
     angular.module("nightspotting", ["ngRoute"]);
 
-    angular.config([
-        "$routeProvider", function($routeProvider) {
+    angular.config(["$routeProvider", "$locationProvider", function ($routeProvider, $locationProvider) {
             $routeProvider
-            .when("/",
-                {
-                    templateUrl: "~/Home/Login.html",
-                    controller: "loginController"
-                });
-
+                .when("/",
+                    {
+                        templateUrl: "app/Login.html",
+                        controller: "loginController"
+                    });
 
         }
     ]);

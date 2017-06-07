@@ -3,14 +3,15 @@
         .controller("loginController", loginController);
 
     loginController.$inject = ["$scope", "$http", "$location"];
-    
+    console.log("yo");
     function loginController($scope, $http, $location)
     {
         $scope.username = "";
         $scope.password = "";
     }
 
-    $scope.login = function() {
+    $scope.login = function () {
+        console.log("yo");
         $http({
                 method: "POST",
                 url: "/Token",
